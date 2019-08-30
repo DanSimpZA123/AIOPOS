@@ -1,1 +1,18 @@
 https://chubbable.com/how-to-install-unicenta-4-4-2-on-linuxmint-19
+############ Start ############
+
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Name=Unicenta
+Comment=Fires up Unicenta oPOS
+Type=Application
+Exec=/usr/bin/unicenta/start.sh
+Icon=/usr/bin/unicenta/unicentaopos.ico
+
+############ End ##############
+
+vi unicenta.desktop
+
+sudo apt install -y mysql-server
+sudo ./unicentaopos-4.4.2-linux-x64-installer.run
