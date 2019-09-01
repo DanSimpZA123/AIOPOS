@@ -1,0 +1,6 @@
+Install MySQL Deb file 
+Install MYSQL
+sudo mysql
+create database unicentaopos;
+grant all on unicentaopos.* to 'unicentaopos'@'localhost' identified by 'Password';
+DB 1 URL: jdbc:mysql://localhost:3306/unicentaopos?zeroDateTimeBehavior=convertToNull
